@@ -1,0 +1,294 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling Header */
+  header {
+    background-color: #FF597B;
+    color: #0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    color: #FF597B;
+  }
+
+  .fa-instagram {
+    color: #FF597B;
+  }
+
+  .fa-twitter {
+    color: #FF597B;
+  }
+
+  .fa-youtube {
+    color: #FF597B;
+  }
+
+  .logo {
+    display: flex;
+    width: 15px;  
+    background-color: #FF597B; 
+    border-radius: 10px; 
+    box-shadow: 0 0 5px #000000; 
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Styling Hero Section */
+  #hero {
+    background-image: url("img/bg\ jkt.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+    color:#fff
+  }
+  
+  .button {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FF0032;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #333;
+    border: 3px solid #333;
+  }
+  
+  /* Styling Services Section */
+  #teather {
+    padding: 100px;
+  }
+  
+  #teather h2 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .teather-item {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .teather-item img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .teather-item h3 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .teather-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* Styling Portfolio Section */
+  #portfolio {
+    background-color: #EB455F;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #portfolio h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color:#fff;
+  }
+  
+  .portfolio-item {
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+  }
+  
+  .portfolio-item img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+  }
+  
+  /* Styling Contact Section */
+  #Pembelian {
+    padding: 100px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #Pembelian h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    margin:auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #333;
+  }
+  
+  button {
+    display: inline-block;
+    background-color: #FF0032;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 
+  }  
+
+  #about {
+    padding: 100px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #about h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .about-item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  #kontak {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #kontak h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+  }
+  
+  .informasi-kontak p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .informasi-kontak ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .informasi-kontak ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .informasi-kontak ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .informasi-kontak ul li a {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .informasi-kontak ul li a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  footer{
+    background-color: #f2f2f2;
+    text-align: center;
+  }
