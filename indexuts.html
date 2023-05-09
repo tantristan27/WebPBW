@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tristan-jkt48.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="uts.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<a href="indexuts.html"><img src="img/weblgo.png" alt="Logo Website" width="40"></a>
+		<nav>
+			<ul>
+				<li><a href="#hero">Beranda</a></li>
+				<li><a href="#teather">Blog</a></li>
+				<li><a href="#about">Tentang</a></li>
+				<li><a href="#kontak">Kontak</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="hero">
+		<h1>Selamat datang di JKT48.com</h1>
+		<p>Pembelian tiket Teather JKT48</p>
+		<button class="button" onclick= "window.location.href='#Pembelian'">Beli</button>
+	</section>
+
+	<section id="teather">
+		<h2>Teather JKT48</h2>
+		<div class="teather-item">
+			<img src="img/teather.svg" width="150">
+			<h3>Performing Member "Cara Meminum Ramune"</h3>    
+			<p>Angelina Christy, Azizi Asadel, Cornelia Vanisa, Feni Fitriyanti, Fiony Alveria, Fransisca Saraswati Puspa Dewi, Freya Jayawardana, Helisma Putri, Jessica Chandra, Jesslyn Callista, Jinan Safa Safira, Kathrina Irene, Marsha Lenathea, Shani Indira Natio, Shania Gracia, Yessica Tamara.</p>
+		</div>
+		<center><hr width="60%" size="2" color="#000"></center>
+		<br>
+		<div class="teather-item">
+			<h3>Video Terbaru dari JKT48</h3>
+			<a href="https://youtu.be/g2QSP2xxmkg">
+				<img src="img/lagu.jpg" alt="lagu terbaru" width="400">
+			</a>
+			<p>Masa Depan Yang Menyilaukan - JKT48 Trainee</p>
+		</div>
+		<center><hr width="60%" size="2" color="#000"></center>
+		<br>
+		<div class="teather-item">
+			<h3>Mei Birthday</h3>
+			<img src="img/birthdy.png" width="500">
+		</div>
+
+	</section>
+
+	<section id="portfolio">
+		<h2>Schedule</h2>
+		<div class="portfolio-item">
+			<img src="img/lgteather.svg">
+			<h3>Teather - "Cara Meminum Ramune"</h3>
+			<p>Rabu, 03 Mei 2023</p>
+		</div>
+		<div class="portfolio-item">
+			<img src="img/event.svg">
+			<h3>Event - Sabiphoria Festival 2023</h3>
+			<p>Minggu, 14 Mei 2023</p>
+		</div>
+		<div class="portfolio-item">
+			<img src="img/event.svg">
+			<h3>Event - Sudut Baya Festival 2023</h3>
+			<p>Minggu, 14 Mei 2023</p>
+		</div>
+	</section>
+
+	<section id="Pembelian">
+			<h2>Pembelian Tiket Teather</h2>
+			<br>
+			<form>
+				<label for="name">Nama:</label>
+				<input type="text" id="name" name="name" required>
+	
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+	
+				<label for="message">ID Anggota:</label>
+				<input id="message" name="message" require>
+				<br>
+				<button onclick="berhasil()">Pesan</button>
+			</form>
+	</section>
+
+	<section id="about">
+		<h2>Apa itu JKT48?</h2>
+		<br>
+		<div class="about-item">
+			<p>Kami ingin menciptakan tempat bagi para perempuan Indonesia untuk mewujudkan impian mereka. Bersama para penggemar, kami ingin membuat satu-satunya “Idola Orisinil Indonesia“. Inilah inspirasi utama kami meluncurkan JKT48.</p>
+			<br>
+			<p>Seluruh anggota JKT48 akan berjuang untuk menggapai tujuan mereka menjadi idola sesungguhnya. Untuk itu, mereka akan berdedikasi tinggi terhadap kegiatan mereka. Tidak hanya menyanyi dan menari, namun juga bakat atau penampilan lainnya. Ayo, datang dan saksikan para anggota berjuang keras mewujudkan mimpi mereka. AKB48 dapat sukses karena tumbuh “bersama“ para penggemar sehingga mereka dapat mencapai posisi seperti saat ini. Kami ingin JKT48 mengikuti jejak AKB48 untuk menjadi grup idola yang dekat dengan para penggemarnya dan juga menjalin hubungan yang erat dengan mereka. Kami percaya bahwa dukungan dari para penggemar akan membawa JKT48 ke tingkat yang lebih tinggi, dimulai dari grup idola yang berbasis di Jakarta hingga menjadi dikenal di seluruh dunia.</p>
+		</div>
+		<br>
+		<img src="img/48group.webp" width="300">
+	</section>
+
+	<section id="kontak">
+		<h2>Informasi Kontak</h2>
+		<div id="informasi-kontak">
+			  <p>Alamat: JKT48 Theater, fX Sudirman F4, Jakarta</p>
+			  <br>
+			  <p>Official Social Media Account :</p>
+			  <!-- <i class="fa fa-instagram"></i> -->
+			  <a href="https://www.facebook.com/official.JKT48" class="fa fa-facebook"></a>
+			  <a href="https://www.instagram.com/jkt48" class="fa fa-instagram"></a>
+			  <a href="https://twitter.com/officialjkt48" class="fa fa-twitter"></a>
+			  <a href="https://www.youtube.com/user/JKT48" class="fa fa-youtube"></a>
+
+			  <!-- <p><a href="https://www.facebook.com/official.JKT48"><i class="fab fa-facebook"></i> Facebook</a></p>
+			  <p><a href="https://twitter.com/officialjkt48"><i class="fab fa-twitter"></i> Twitter</a></p>
+			  <p><a href="https://www.instagram.com/jkt48"><i class="fab fa-instagram"></i> Instagram</a></p>
+			  <p><a href="https://www.youtube.com/user/JKT48"><i class="fab fa-youtube"></i> YouTube</a></p> -->
+			  <br>
+			  <br>
+			  <p>Operation Team (PT. XYZ Entertainment)</p>
+		</div>
+	  </section>	  
+
+	<footer>
+		<p>Hak Cipta &copy; 2023 jkt48.com
+    </footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
